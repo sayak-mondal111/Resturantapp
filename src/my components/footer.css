@@ -1,0 +1,63 @@
+.fancy-footer {
+    background: linear-gradient(to right, #1d1c1c, #5c5756);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* animation: glow 2s ease-in-out infinite alternate; */
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 15px #ffccbc, 0 0 30px #ffccbc;
+    }
+}
+
+.footer-tagline {
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #ffe0b2;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: 0.8;
+}

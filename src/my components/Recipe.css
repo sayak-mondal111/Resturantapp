@@ -1,0 +1,144 @@
+/* .recipe1 {
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 50px;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe1 .photo {
+    height: 100%;
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+.recipe1 .photo img {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+
+}
+
+.recipe1 desc {
+    height: 90px;
+    width: 70%;
+    background: red;
+}
+
+/* .recipe1 .desc p {
+    color: rgb(5, 5, 5);
+    margin-top: 20px;
+    align-items: right;
+    margin-right: 60px;
+} */
+/* ------------------------------------------------------------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.content {
+    /* height: 200px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-top: 10px; */
+    width: 100%;
+    height: 350px;
+
+    margin-top: 50px;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content .logo img {
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+    content: fit-content;
+    border-radius: 20px;
+}
+
+.content p {
+
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+
+    /* color: white; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.content .para {
+    height: 100%;
+    width: 70%;
+    border-radius: 30px;
+    margin-top: 20px;
+
+
+    transition: width 2s;
+    transition-timing-function: ease;
+
+}
+
+.content .para1 {
+    height: 100%;
+    width: 75%;
+    border-radius: 30px;
+
+
+
+}
+
+.content .para1 p {
+    color: rgb(0, 0, 0);
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-size: 25px;
+
+
+}
+
+.content .para:hover {
+
+    cursor: pointer;
+}
+
+
+.second {
+    height: 150%;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.recipe-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
